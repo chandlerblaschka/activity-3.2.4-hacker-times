@@ -17,7 +17,7 @@ h2 {
     margin: 0;
 }
 
-h5 {
+h5.by {
     font-family: 'Abril Fatface', serif;
     color: #dd3232;
     font-size: 15px;
@@ -48,14 +48,15 @@ p {
 }
 
 nav {
-    /* top: 0;
-    position: sticky; */
+    top: 0;
+    position: sticky;
     border-top: 2px solid #eee;
     border-bottom: 2px solid #eee;
     list-style: none;
     margin: 0 20px 0 20px;
     padding: 0;
     text-align: center;
+    background-color: white;
 }
 
 ul {
